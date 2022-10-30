@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/back">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/diagram"
+            android:id="@+id/diagram"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toTopOf="@+id/horizontal33"
+            android:scaleType="centerCrop"/>
+
+    <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="0dp" android:id="@+id/seekBar"
+            app:layout_constraintDimensionRatio="14:1"
+            style="@android:style/Widget.DeviceDefault.SeekBar"
+            android:max="100"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal37"
+            app:layout_constraintTop_toTopOf="@+id/horizontal33" app:layout_constraintStart_toStartOf="@id/vertical10"
+            app:layout_constraintEnd_toEndOf="@id/vertical90"
+            android:progressTint="#FFFEFf"/>
+
+    <TextView
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="14:1"
+            android:id="@+id/brightness"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="@+id/horizontal37" app:layout_constraintBottom_toTopOf="@+id/horizontal40"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"/>
+
+    <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/ic_left"
+            android:id="@+id/imageView"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal37"
+            app:layout_constraintEnd_toStartOf="@+id/vertical10"
+            app:layout_constraintStart_toStartOf="@+id/vertical5" app:layout_constraintTop_toTopOf="@+id/horizontal33"/>
+
+    <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/ic_right"
+            android:id="@+id/imageView2"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal37"
+            app:layout_constraintEnd_toStartOf="@+id/vertical95"
+            app:layout_constraintStart_toStartOf="@+id/vertical90" app:layout_constraintTop_toTopOf="@+id/horizontal33"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/saloon" android:id="@+id/saloonIcon"
+            app:layout_constraintTop_toTopOf="@+id/horizontal43" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal50"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/st_wheel" android:id="@+id/steeringWheelIcon"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal50"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal43"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/left_door" android:id="@+id/leftDoorIcon"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal64"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/horizontal57"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/right_door" android:id="@+id/rightDoorIcon"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal64" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical75"
+            app:layout_constraintTop_toTopOf="@+id/horizontal57"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/left_back" android:id="@+id/leftBackDoorIcon"
+            app:layout_constraintTop_toTopOf="@+id/horizontal71" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal78"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/right_back" android:id="@+id/rightBackDoorIcon"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal78" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical75"
+            app:layout_constraintTop_toTopOf="@+id/horizontal71"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saloonBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal50"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal57"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/steeringWheelBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal57"
+            app:layout_constraintTop_toBottomOf="@+id/steeringWheelIcon"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leftDoorBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal71"
+            app:layout_constraintTop_toTopOf="@+id/horizontal64"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rightDoorBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal71" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical75"
+            app:layout_constraintTop_toTopOf="@+id/horizontal64"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leftBackDoorBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vertical25"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal85"
+            app:layout_constraintTop_toTopOf="@+id/horizontal78"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rightBackDoorBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal85"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/vertical75"
+            app:layout_constraintTop_toTopOf="@+id/horizontal78"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/seat1" android:id="@+id/seat1"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal64"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal57"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/leftSeatBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal71"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal64"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/seat2" android:id="@+id/seat2"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal64"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50"
+            app:layout_constraintTop_toTopOf="@+id/horizontal57"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rightSeatBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal71"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50"
+            app:layout_constraintTop_toTopOf="@+id/horizontal64"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/seat3" android:id="@+id/seat3"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal78"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal71"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backLeftSeatBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal85"
+            app:layout_constraintEnd_toStartOf="@+id/vertical50"
+            app:layout_constraintStart_toStartOf="@+id/vertical25"
+            app:layout_constraintTop_toTopOf="@+id/horizontal78"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/seat4" android:id="@+id/seat4"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal78"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50"
+            app:layout_constraintTop_toTopOf="@+id/horizontal71"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backRightSeatBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal85"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50"
+            app:layout_constraintTop_toTopOf="@+id/horizontal78"/>
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:srcCompat="@drawable/climate" android:id="@+id/climateIcon"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal50"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50"
+            app:layout_constraintTop_toTopOf="@+id/horizontal43"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/climateBox"
+            android:buttonTint="@color/white"
+            android:textColorHighlight="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/horizontal57"
+            app:layout_constraintEnd_toStartOf="@+id/vertical75"
+            app:layout_constraintStart_toStartOf="@+id/vertical50" app:layout_constraintTop_toTopOf="@+id/horizontal50"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal33"
+            app:layout_constraintGuide_percent="0.33"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal37"
+            app:layout_constraintGuide_percent="0.37"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal40"
+            app:layout_constraintGuide_percent="0.4"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal43"
+            app:layout_constraintGuide_percent="0.43"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal50"
+            app:layout_constraintGuide_percent="0.50"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal57"
+            app:layout_constraintGuide_percent="0.57"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal64"
+            app:layout_constraintGuide_percent="0.64"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal71"
+            app:layout_constraintGuide_percent="0.71"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal78"
+            app:layout_constraintGuide_percent="0.78"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontal85"
+            app:layout_constraintGuide_percent="0.85"
+            android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical5"
+            app:layout_constraintGuide_percent="0.05"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical10"
+            app:layout_constraintGuide_percent="0.10"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical75"
+            app:layout_constraintGuide_percent="0.75"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical90"
+            app:layout_constraintGuide_percent="0.90"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical95"
+            app:layout_constraintGuide_percent="0.95"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical25"
+            app:layout_constraintGuide_percent="0.25"
+            android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vertical50"
+            app:layout_constraintGuide_percent="0.5"
+            android:orientation="vertical"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

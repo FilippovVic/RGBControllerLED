@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_icon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_seat1.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\seat1.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_left_door.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\left_door.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_unreachable.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_menu_unreachable.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_icon.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_icon.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_icon_foreground.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_search.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_right_back.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\right_back.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_help.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_seat4.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\seat4.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_left_back.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\left_back.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bt_disable.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_bt_disable.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_icon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_icon_foreground.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_saloon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\saloon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bt_list.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\layout\\activity_bt_list.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_icon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_left.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_left.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_icon_round.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_round.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_right_door.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\right_door.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_icon_foreground.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_right.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_devices_menu.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\menu\\devices_menu.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_not_connected.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_not_connected.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_bt_list_item.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\layout\\bt_list_item.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_seat3.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\seat3.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bt_enable.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_bt_enable.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_icon_foreground.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_diagram.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\diagram.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_climate.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\climate.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_back.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_rgb_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\rgb_icon.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_connected.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_connected.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_seat2.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\seat2.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_icon_round.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_icon_round.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_icon_round.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_icon_round.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_icon_round.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_icon_round.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_st_wheel.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\st_wheel.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_chair.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\chair.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_icon_foreground.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon_foreground.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_icon_round.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_icon_round.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_icon_round.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_icon_round.png"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_rgb_icon_background.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\drawable\\ic_rgb_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\Apps\\MyApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_icon.png.flat",
+        "source": "D:\\Apps\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_icon.png"
+    }
+]
